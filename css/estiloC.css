@@ -1,0 +1,47 @@
+
+.Botao{
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #8985B1;
+    border-color: #8985B1;
+}
+
+.Botao:hover{
+    background-color: #3A384B;
+    border-color: #3A384B;
+}
+
+body{
+    background-color: #A39ED3;
+}
+
+.variaveis{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    
+}
+.X1{
+    background-color: white;
+    display: inline;
+    border-radius: 4px;
+    padding: 4px 8px;
+      
+    
+}
+    
+.X2{
+    background-color: white;
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* coloca uma embaixo da outra */
+  align-items: center;    /* centraliza horizontalmente */
+  gap: 6px;               /* espaço entre as palavras */
+}
