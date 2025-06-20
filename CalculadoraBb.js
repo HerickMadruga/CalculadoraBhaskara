@@ -6,7 +6,10 @@ function pegar(){
     let delta = (b**2) - (4*a*c);
     if(delta<0)
     {
-        alert('X impossivel nos reais');
+         document.querySelector(".X1").textContent = "x1 é: Não existe nos reais"; 
+        document.querySelector(".X2").textContent = "x2 é: Não existe nos reais"; 
+        document.querySelector(".Delta").textContent = "Delta é: " + delta;
+
     }
     else if(delta >= 0 )
     {
@@ -14,6 +17,7 @@ function pegar(){
         let x2= (-b-(Math.sqrt(delta)))/(2*a);
         document.querySelector(".X1").textContent = "x1 é: " + x1; 
         document.querySelector(".X2").textContent = "x2 é: " + x2; 
+        document.querySelector(".Delta").textContent = "Delta é: " + delta; 
     }
 
 }

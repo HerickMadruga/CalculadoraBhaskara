@@ -39,6 +39,14 @@ body{
     
 }
 
+.Delta{
+    background-color: white;
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+}
+
 .container {
   display: flex;
   flex-direction: column; /* coloca uma embaixo da outra */
